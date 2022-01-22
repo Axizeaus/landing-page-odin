@@ -86,3 +86,93 @@ a{
 .sign-up-button:active {
     background: #144E75; 
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-height: 500px;
+}
+
+.content-head{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+}
+
+.free-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.box{
+    border:#3882f9 solid;
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.text{
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #152937;
+    text-align: center;
+    max-width: 500px;
+}
+
+.name{
+    text-align: end;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.footer div{
+    border:#3882f9 solid;
+    background-color: #3882f9;
+    border-radius: 25px;
+    padding: 20px;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
