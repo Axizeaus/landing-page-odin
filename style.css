@@ -157,7 +157,7 @@ a{
     min-height: 300px;
 }
 
-.footer div{
+.footer-mid{
     border:#3882f9 solid;
     background-color: #3882f9;
     border-radius: 25px;
@@ -165,14 +165,23 @@ a{
     width: 1000px;
     height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer-text{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex:1;
+    align-items:flex-start;
+}
+
+#footer-main{
+    font-size: 20px;
+    color:#f9faf8;
+}
+
+#footer-second{
+    font-size: 15px;
+    color: #e5e7eb;
 }
